@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <script src="https://kit.fontawesome.com/3ba8c640fa.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Style/style.css">
+    </head>
+    <body>
+        <div class="annoucement">FREE SHIPPING FOR ORDERS OVER 599 EGP</div>
+            <nav>
+                <header>ECOMM.</header>
+                <span id="cart" class="fa-stack fa-2x has-badge">
+                    <i class="fa fa-circle fa-stack-1x fa-inverse"></i>
+                    <i class="fa fa-shopping-cart fa-stack-1x red-cart"></i>
+                </span>
+                <a href="aboutPage.html">ABOUT</a>
+                <a href="contactUsPage.html">CONTACT US</a>
+                <a href="homePage.html">HOME</a>
+            </nav>
+            <hr>
+        <section class="slider">
+            <button onclick="prevoius()">
+                <i class="fa-solid fa-angle-left"></i>
+            </button>
+            <img src="media/4.jpg">
+            <button onclick="next()">
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+        </section>
+        <section class="shop-now">
+            <P>READY FOR THE NEW SEASON?</P>
+            <button>SHOP NOW</button>
+        </section>
+        <section id="category" class="categories">
+        </section>
+        <label id="filter">Filter By Category:</label>
+        <select id="select-cat">
+            <option value="">All</option>
+            <option value="Dress">Dress</option>
+            <option value="Bag">Bag</option>
+            <option value="T-shirt">T-shirt</option>
+            <option value="Cap">Cap</option>
+        </select>
+        <section id="product" class="products">
+        </section>
+        <section class="news-letter">
+            <header>Newsletter</header>
+            <p>Get timely updates from your favorite products.</p>
+            <div>
+                <input type="text" placeholder="Your Email">
+                <button >SEND</button>
+            </div>
+        </section>
+        <footer>
+            <div class="left">
+                <header>Ecomm.</header>
+                <p>There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don’t look even slightly believable.
+                </p>
+            </div>
+            <div class="center">
+                <header>Useful Links</header>
+                <ul>
+                    <li>Home</li>
+                    <li>Cart</li>
+                    <li>Man Fashion</li>
+                    <li>Woman Fashion</li>
+                    <li>Accessories</ListItem>
+                    <li>My Account</li>
+                    <li>Order Tracking</li>
+                    <li>Wishlist</li>
+                    <li>Contact Us</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+            <div class="right">
+                <i class="fa-brands fa-2x fa-facebook-square"></i>
+                <i class="fa-brands fa-2x fa-instagram"></i>       
+                <i class="fa-brands fa-2x fa-twitter"></i>         
+            </div>
+        </footer>
+        <i id="top-btn" class="fa-solid fa-4x fa-circle-arrow-up"></i>
+        <script src="Script/data.js"></script>
+        <script src="Script/Home.js"></script>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conatct Us</title>
+        <script src="https://kit.fontawesome.com/3ba8c640fa.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Style/style.css">
+        <link rel="stylesheet" href="Style/contactus.css">
+    </head>
+    <body> 
+        <nav>
+            <header>ECOMM.</header>
+            <span id="cart" class="fa-stack fa-2x has-badge">
+                <i class="fa fa-circle fa-stack-1x fa-inverse"></i>
+                <i class="fa fa-shopping-cart fa-stack-1x red-cart"></i>
+            </span>
+            <a href="aboutPage.html">ABOUT</a>
+            <a href="contactUsPage.html">CONTACT US</a>
+            <a href="homePage.html">HOME</a>
+        </nav>
+        <hr>
+        <div class="container">
+            <form action="">
+                <label>Name</label>
+                <input id="user-name" type="text" name="username" onchange="changeBorder(event)"> <br>
+                <label>Email</label>
+                <input id="email" type="text" name="email" onchange="changeBorder(event)"> <br>
+                <label>Phone</label>
+                <input id="phone" type="text" name="phone" onchange="changeBorder(event)"> <br>
+                <label>Your Message</label>
+                <textarea id="text-msg" name="textmsg" onchange="changeBorder(event)"></textarea> <br>
+                <button id="submit" class="success-btn">CONTACT US</button>
+                <h3 id="user-msg"></h3>
+            </form>
+        </div>
+        <footer>
+            <div class="left">
+                <header>Ecomm.</header>
+                <p>There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don’t look even slightly believable.
+                </p>
+            </div>
+            <div class="center">
+                <header>Useful Links</header>
+                <ul>
+                    <li>Home</li>
+                    <li>Cart</li>
+                    <li>Man Fashion</li>
+                    <li>Woman Fashion</li>
+                    <li>Accessories</ListItem>
+                    <li>My Account</li>
+                    <li>Order Tracking</li>
+                    <li>Wishlist</li>
+                    <li>Contact Us</li>
+                    <li>Terms</li>
+                </ul>
+            </div>
+            <div class="right">
+                <i class="fa-brands fa-2x fa-facebook-square"></i>
+                <i class="fa-brands fa-2x fa-instagram"></i>       
+                <i class="fa-brands fa-2x fa-twitter"></i>         
+            </div>
+        </footer>
+        <script src="Script/data.js"></script>
+        <script src="Script/ContactUs.js"></script>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+document.getElementById("cart").setAttribute("data-count",cartItems)

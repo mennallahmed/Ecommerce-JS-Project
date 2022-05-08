@@ -1,0 +1,54 @@
+body{
+  position: relative;
+}
+main{
+  height: 55vh;
+  background-image: url("../media/aboutUsBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.about-span{
+  letter-spacing: 15px;
+  display: block;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* Main Paragrph Style*/
+.about-p{
+  height: 50vh;
+  width: 60%;
+  
+  text-align: center;
+  font-size: 25px;
+  line-height: 50px;
+  margin: auto 20%;
+  padding-top: 90px;
+  color: #3b3b3b;
+}
+.info{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(241, 40, 40);
+}
+.info .container{
+  flex:1;
+  margin: 15px;
+}
+.img-container{
+  height: 130vh;
+}
+.about-img{
+  margin: 3% 22%;
+}
